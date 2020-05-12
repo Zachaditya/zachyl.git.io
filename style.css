@@ -1,0 +1,70 @@
+#navbar {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.navi{
+    text-align: center;
+    display: inline-block;
+    color:#0f0f0f;
+    padding: 16px;
+    text-decoration: none;
+    position: relative;
+    left: 440px;
+    margin-right: 20px;
+    font-family: Dengxian;
+    transition-duration: 0.4s;
+
+}
+.navi:hover{
+    background-color: #0f0f0f;
+    border-radius: 0px 20px 20px 20px;
+    color: white;
+}
+#logo{
+    -ms-transform: translateX(420px);
+    transform: translateX(420px);
+    background-color: white;   
+}
+
+#login {
+    position: relative;
+    left: 1100px;
+    top: -190px;
+}
+.help{
+    text-decoration: none;
+    color: #0f0f0f;
+    font-family: Dengxian;
+}
+.help:hover{
+    color:#e0e0e0;
+    text-decoration: none;
+}
+.mostPopular{
+    padding:    8px 15px 3px 15px;
+    margin: 8px 15px 3px 15px;
+    position: relative;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.24), 0 12px 40px 0 rgba(0,0,0,0.19);
+    border: none;
+    transition-duration: 0.4s;
+
+
+}
+
+.mostPopular:hover {
+    box-shadow: 0 15px 20px 0 rgba(0,0,0,0.24), 0 25px 70px 0 rgba(0,0,0,0.19);
+    border: none;
+
+}
+.mostPopular :active{
+    border: hidden;
+
+}
+.mostPopularProducts{
+    position: relative;
+    font-family: DengXian;
+    font-size: 15px;
+
+}
